@@ -1,0 +1,77 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* html */
+body {
+    background: rgb(55,35,51);
+background: linear-gradient(180deg, rgba(55,35,51,1) 0%, rgba(92,55,84,1) 44%, rgba(131,74,106,1) 100%);
+height: 100vh;
+}
+
+/* Navigation */
+
+.navigation {
+    padding: 0.7rem;
+    background-color: #83778166;
+}
+
+.navigation ul {
+    display: flex;
+    justify-content: ;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin-right: 1rem;
+    color: white;
+}
+
+.nav-links:hover {
+    color: white;
+}
+
+/* main section */
+
+/* Heading */
+#welcome {
+    text-align: center;
+    margin-top: 70px;
+}
+#welcome h1 {
+    color: white;
+    font-size: 48px;
+}
+
+/* Form */
+.form-section {
+    background-color: #83778166;
+    color: white;
+    margin: auto;
+    text-align: center;
+    width: 20%;
+    padding: 1.5rem;
+    margin-top: 70px;
+}
+
+.form-section h3 {
+    margin: .3rem;
+}
+input {
+    margin-top: 1rem;
+    padding: .2rem;
+}
+
+button {
+    background-color: rgb(180 73 83);
+    color: white;
+    border-radius: 5px;
+    width: 55%;
+    margin-top: 1rem;
+    padding: 3px;
+    font-weight: bold;
+    border:none;
+
+}
