@@ -2,6 +2,7 @@
 
 /*
     *For in loops work by looping over enumerable (able to be counted) property names of an object
+    * Loops through the properties or keys in an object
 
     for (iterate in iterable) {
         code block to execute over each iterate
@@ -26,11 +27,20 @@ let person = {
     age: 23,
 }
 
-// for (i in teacher) {
-//     //(i - enumerable, teacher[i] - Objects of enumerables)
-//     console.log(i, teacher[i]);
-// }
+for (i in teacher) {
+    //(i - enumerable, teacher[i] - Objects of enumerables)
+    console.log(i);
+}
 
 for (property in person) {
     console.log(property, person[property]);
 }
+
+function whatDoesItDo(color) {
+    if(color !== "blue" || color !== "green") {
+        color = "red";
+    }
+    return color;
+}
+
+console.log(whatDoesItDo("blue"))
