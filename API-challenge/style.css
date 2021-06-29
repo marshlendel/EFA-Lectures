@@ -1,0 +1,36 @@
+body{
+    background-color: lightblue;
+    text-align: center;
+    color: blue;
+    margin: 0;
+    padding: 5%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+  }
+
+  div{
+    text-align: center;
+  }
+
+  .BMO{
+    width: 30%;
+  }
+
+  img{
+    height: 50vh;  
+    box-shadow: 2px 2px 5px black;
+  }
+
+  h1{
+      text-shadow: 2px 2px 3px gray;
+  }
+
+  button {
+      margin-top: 30px;
+      font-size: 2rem;
+      background-color: blue;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+  }
